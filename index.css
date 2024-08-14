@@ -516,17 +516,16 @@ color: #ffffc9;
 /* menu grid */
 .grid--3--cols{
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 5.4rem;
     align-items: center;
     justify-items: center;
-    font-size: 3rem;
-    line-height: 6rem;
+    font-size: 2rem;
+    line-height: 5rem;
 }
 
 .grid--3--cols img{
     height: 100%;
-    width: 40rem;
+    width: 30rem;
 }
 .section-meals{
-    padding: 0 6rem;
+    padding: 0 18rem;
 }
