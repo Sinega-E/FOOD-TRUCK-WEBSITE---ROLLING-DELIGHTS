@@ -185,10 +185,64 @@ body{
     padding: 0.3rem;
    
 }
+
+/* ******************FEATURED IN SECTION********************** */
+.section-featured-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+.heading-featured-in{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: #999;
+}
+.featured-in-logos{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.featured-in-logos .logo-size{
+    height: 6rem;
+    width: 100%;
+
+}
+.featured-in-logos .logo-size-1{
+    height: 3.6rem;
+    width: 100%;
+  
+}
+.featured-in-logos .logo{
+    height: 2.5rem;
+    width: 100%;
+
+}
+.logo-pad-size{
+    padding: 0 4rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ******************GRID SECTION********************** */
 
 .section-how{
-    background-color: #ffeab6;
+    background-color: #ffffd4;
     overflow: hidden;
     
 }
@@ -274,7 +328,7 @@ body{
     width:67rem;
     height: 100%;
 }
-/* LAYER */
+/* LAYER left side */
 
 .layer{
     position: absolute;
