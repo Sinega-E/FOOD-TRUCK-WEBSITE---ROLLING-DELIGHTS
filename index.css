@@ -230,20 +230,10 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* ******************GRID SECTION********************** */
 
 .section-how{
-    background-color: #ffffd4;
+    background-color: #ffffe2;
     overflow: hidden;
     
 }
@@ -293,7 +283,6 @@ body{
     
 }
 .grid--2--cols{
-
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
 }
@@ -352,7 +341,7 @@ color: #ffffc9;
     position: absolute;
     height: 550px;
     width: 550px;
-    background-color: #977e40;
+    background-color: #a8822b;
     border-radius: 100%;
     z-index: -1;
     top: 37rem;
@@ -365,12 +354,12 @@ color: #ffffc9;
     position: absolute;
     height: 490px;
     width: 490px;
-    background-color: #332c0b;
+    background-color: #5d4717;
     border-radius: 100%;
     z-index: -1;
     top: 40rem;
     right: 15.7rem;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 /*----------------IMAGE 2: CHERRY---------------- */
@@ -398,35 +387,35 @@ color: #ffffc9;
     z-index: -1;
     top: 84rem;
     left: 13rem;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 /*----------------IMAGE 3: phone order---------------- */
-.bg-circle-img31::before{
+.bg-circle-img3::before{
     content:" ";
     display: block;
     position: absolute;
     height: 550px;
     width: 550px;
-    background-color: #977e40;
+    background-color: #a8822b;
     border-radius: 100%;
     z-index: -1;
     top: 126rem;
     right: 10rem;
     opacity: 0.3;
 }
-.bg-circle-img31::after{
+.bg-circle-img3::after{
     content:" ";
     display: block;
     position: absolute;
     height: 490px;
     width: 490px;
-    background-color: #332c0b;
+    background-color: #5d4717;
     border-radius: 100%;
     z-index: -1;
     top: 129rem;
     right: 13rem;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 /*----------------IMAGE 4: BURGER---------------- */
@@ -454,12 +443,12 @@ color: #ffffc9;
     z-index: -1;
     top: 174rem;
     left: 15rem;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 
 /*----------------IMAGE 5: Insta post---------------- */
-.bg-circle-img3::before{
+.bg-circle-img5::before{
     content:" ";
     display: block;
     position: absolute;
@@ -472,18 +461,18 @@ color: #ffffc9;
     right: 12.5rem;
     opacity: 0.3;
 }
-.bg-circle-img3::after{
+.bg-circle-img5::after{
     content:" ";
     display: block;
     position: absolute;
     height: 490px;
     width: 490px;
-    background-color: #332c0b;
+    background-color: #5d4717;
     border-radius: 100%;
     z-index: -1;
     top: 215rem;
     right: 15.5rem;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 /*----------------IMAGE 6: PHOTO COLLAGE---------------- */
@@ -511,5 +500,33 @@ color: #ffffc9;
     z-index: -1;
     top: 260rem;
     left: 15rem;
-    opacity: 0.3;
+    opacity: 0.5;
+}
+/* SECTION HOW TITLE */
+.section-how::before{
+    content: "HOW IT WORKS?";
+    position: absolute;
+    display: block;
+    top: 3rem;
+    left: 12.4rem;
+    color: #ffe872;
+}
+
+
+/* menu grid */
+.grid--3--cols{
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 5.4rem;
+    align-items: center;
+    justify-items: center;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+.grid--3--cols img{
+    height: 100%;
+    width: 40rem;
+}
+.section-meals{
+    padding: 0 6rem;
 }
