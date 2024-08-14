@@ -188,7 +188,8 @@ body{
 /* ******************GRID SECTION********************** */
 
 .section-how{
-    background-color: #fadf9c;
+    background-color: #ffeab6;
+    overflow: hidden;
     
 }
 .container, .section-how-div{
@@ -244,6 +245,7 @@ body{
 
 .section-how-img{
     justify-self: center;
+    overflow: hidden;
 }
 
 .section-how-img-right1{
@@ -284,4 +286,175 @@ body{
 }
 .layer-side-text,.layer-side-text p, .layer-side-text h3{
 color: #ffffc9;
+}
+
+/*---------------- Background cirle---------------- */
+
+/*----------------IMAGE 1: PHONE---------------- */
+.bg-circle-img1::before{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: #977e40;
+    border-radius: 100%;
+    z-index: -1;
+    top: 37rem;
+    right: 5em;
+    opacity: 0.3;
+}
+.bg-circle-img1::after{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+    background-color: #332c0b;
+    border-radius: 100%;
+    z-index: -1;
+    top: 40rem;
+    right: 15.7rem;
+    opacity: 0.3;
+}
+
+/*----------------IMAGE 2: CHERRY---------------- */
+.bg-circle-img2::before{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: #ffd978;
+    border-radius: 100%;
+    z-index: -1;
+    top: 81rem;
+    left: 10rem;
+    opacity: 0.3;
+}
+.bg-circle-img2::after{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+    background-color: #fffffe;
+    border-radius: 100%;
+    z-index: -1;
+    top: 84rem;
+    left: 13rem;
+    opacity: 0.3;
+}
+
+/*----------------IMAGE 3: phone order---------------- */
+.bg-circle-img3::before{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: #977e40;
+    border-radius: 100%;
+    z-index: -1;
+    top: 126rem;
+    right: 10rem;
+    opacity: 0.3;
+}
+.bg-circle-img3::after{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+    background-color: #332c0b;
+    border-radius: 100%;
+    z-index: -1;
+    top: 129rem;
+    right: 13rem;
+    opacity: 0.3;
+}
+
+/*----------------IMAGE 4: BURGER---------------- */
+.bg-circle-img4::before{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: #cdbb5f;
+    border-radius: 100%;
+    z-index: -1;
+    top: 171rem;
+    left: 12rem;
+    opacity: 0.3;
+}
+.bg-circle-img4::after{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+    background-color:#ffffff ;
+    border-radius: 100%;
+    z-index: -1;
+    top: 174rem;
+    left: 15rem;
+    opacity: 0.3;
+}
+
+
+/*----------------IMAGE 4: Insta post---------------- */
+.bg-circle-img3::before{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: #977e40;
+    border-radius: 100%;
+    z-index: -1;
+    top: 212rem;
+    right: 12.5rem;
+    opacity: 0.3;
+}
+.bg-circle-img3::after{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+    background-color: #332c0b;
+    border-radius: 100%;
+    z-index: -1;
+    top: 215rem;
+    right: 15.5rem;
+    opacity: 0.3;
+}
+
+/*----------------IMAGE 6: PHOTO COLLAGE---------------- */
+.bg-circle-img6::before{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: #cdbb5f;
+    border-radius: 100%;
+    z-index: -1;
+    top: 257rem;
+    left: 12rem;
+    opacity: 0.3;
+}
+.bg-circle-img6::after{
+    content:" ";
+    display: block;
+    position: absolute;
+    height: 490px;
+    width: 490px;
+    background-color:#ffffff ;
+    border-radius: 100%;
+    z-index: -1;
+    top: 260rem;
+    left: 15rem;
+    opacity: 0.3;
 }
