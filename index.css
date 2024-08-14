@@ -402,7 +402,7 @@ color: #ffffc9;
 }
 
 /*----------------IMAGE 3: phone order---------------- */
-.bg-circle-img3::before{
+.bg-circle-img31::before{
     content:" ";
     display: block;
     position: absolute;
@@ -415,7 +415,7 @@ color: #ffffc9;
     right: 10rem;
     opacity: 0.3;
 }
-.bg-circle-img3::after{
+.bg-circle-img31::after{
     content:" ";
     display: block;
     position: absolute;
@@ -458,7 +458,7 @@ color: #ffffc9;
 }
 
 
-/*----------------IMAGE 4: Insta post---------------- */
+/*----------------IMAGE 5: Insta post---------------- */
 .bg-circle-img3::before{
     content:" ";
     display: block;
