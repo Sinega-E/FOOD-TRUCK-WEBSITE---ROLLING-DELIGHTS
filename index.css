@@ -23,6 +23,7 @@ body{
     background-color: #ffffd4;
     box-sizing: border-box;
     position: fixed;
+    z-index: 3;
    
 }
 
