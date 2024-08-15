@@ -725,9 +725,11 @@ strong{
 }
 .gallery-item img:hover{
     transform: scale(1.1);
-    box-shadow: 2rem 3.2rem 6.4rem rgba(67, 67, 67, 0.3);
 }
 .main-heading-testimonial{
     font-size: 5rem;
     margin-bottom: 5rem;
+}
+.gallery-item{
+    overflow: hidden;
 }
