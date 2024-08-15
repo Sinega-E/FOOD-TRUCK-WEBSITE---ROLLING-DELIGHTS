@@ -725,6 +725,7 @@ strong{
 }
 .gallery-item img:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 .main-heading-testimonial{
     font-size: 5rem;
@@ -733,3 +734,86 @@ strong{
 .gallery-item{
     overflow: hidden;
 }
+/* ------------SECTION PRICING------------ */
+
+.section-pricing{
+    padding: 4rem 13rem;
+
+}
+
+.short-heading-pricing{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #4c3f01;
+    font-weight: 500;
+}
+
+.main-heading-pricing{
+    color: #4c3b17;
+    margin-bottom: 4rem;
+    font-size: 4.5rem;
+    padding-bottom: 0;
+}
+
+.grid--4--cols{
+    display: grid;
+    grid-template-columns: repeat(4,30rem);
+    align-content:space-evenly ;
+    width: 120rem;
+    height: auto;
+    gap: 3rem;
+ 
+  
+}
+.price-main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    width: 25rem;
+    padding: 3rem 2rem;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+.price-main:hover{
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(67, 67, 67, 0.3);
+    cursor: pointer;
+}
+.plan{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #4c3b17;
+}
+.price{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    color: #715d2a;
+}
+
+.price-benefits-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    line-height: 1.5;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+.price-benefit-item{
+    display: flex;
+    gap: 1rem;
+  
+}
+
+
+.pricing-button{
+    margin-top: auto;
+    border: none;    
+}
+
+
