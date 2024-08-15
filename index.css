@@ -24,7 +24,6 @@ body{
     box-sizing: border-box;
     position: fixed;
     z-index: 3;
-   
 }
 
 .logo{
@@ -124,8 +123,9 @@ body{
     padding: 0.8rem  1.5rem;
     text-decoration: none;
     border-radius: 8px;
-    transition: background-color 0.3s;
     font-weight: bold;
+    transition: all 0.3s;
+    
 
 }
 .btn--full:link,
@@ -148,7 +148,7 @@ body{
 .btn--outline:hover,
 .btn--outline:active{
     background-color: #ffffd4;
-    box-shadow:inset 0 0 0 2px #6e6141;
+    box-shadow:inset 0 0 0 1px #958253;
 
 }
 /* **************************************** */
@@ -514,18 +514,220 @@ color: #ffffc9;
 
 
 /* menu grid */
-.grid--3--cols{
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+
+.section-meals{
+    background-color: #ffffef;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
-    font-size: 2rem;
-    line-height: 5rem;
+    align-items: center;
 }
 
+
+.grid--3--cols{
+    grid-template-columns:1fr 1fr 1fr;
+    
+    font-size: 2rem;
+    justify-items: center; 
+    align-items: center;  
+    padding: 0;   
+}
+.meal{
+    width: 35rem;
+   overflow: hidden;
+   border-radius: 12px;
+   box-shadow: 0 2rem 4rem rgba(0,0,0,0.3);
+   transition: all 0.3s;
+}
+.meal:hover{
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(67, 67, 67, 0.3);
+    cursor: pointer;
+}
 .grid--3--cols img{
     height: 100%;
-    width: 30rem;
+    width: 100%; 
 }
-.section-meals{
-    padding: 0 18rem;
+
+.center-text h2{
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.meal-content{
+    background-color: #ffffff;
+    padding:3rem 4.8rem 4.8rem 4.8rem;
+}
+.meal-tags{
+    margin-bottom: 0.9rem;
+}
+
+.meal-title{
+    font-size: 2.5rem;
+    margin-top:1.5rem;
+    margin-bottom:2rem;
+    color: #4c3b17;
+}
+.meal-attributes{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    list-style: none;
+    font-size: 1.7rem;
+    gap: 1.5rem;
+}
+.meal-attribute{
+    margin-right: 2rem;
+    color: #3d3520;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    
+}
+.tag{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #766237;
+    text-transform: uppercase;
+    background-color: #51c665;
+    padding: 0.4rem 0.6rem;
+    color: #333;
+    border-radius: 109px;
+}
+.tag-Wraps-Rolls{
+    background-color: #ffe066 !important; 
+}
+.tag-Grilled{
+    background-color: #ffae52 !important;;
+}
+.meal-icon{
+    font-size: 2.2rem;
+    color: #4c3b17;
+}
+strong{
+    font-weight: 550;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.list-icon{
+    color: #4c3b17;
+}
+.diets{
+    display: flex;
+    flex-direction:column;
+    gap: 2.5rem;
+}
+.secondary-heading-meal-diet{
+    font-size: 3.25rem;
+    align-self: center;
+    color: #5f5130;
+}
+
+.all-recipes{
+    text-align: center;
+    font-size: 2rem;
+}
+.link:link,
+.link:visited{
+    display: inline-block;
+    text-decoration: none;
+    color: #322914;
+    border-bottom:solid 1px currentColor;
+    padding-bottom: 2px;
+    transition: all 0.3s;
+}
+.link:hover,
+.link:active{
+    color: #914d00;
+    border-bottom:1px solid transparent;
+    
+}
+
+/* ----------------SHORT HEADING----MEALS------------- */
+.short-heading{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4c3f01;
+    font-weight: 500;
+}
+/* -------------------------------------- */
+/* TESTIMONIAL */
+.short-heading-testimonial{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #4c3f01;
+    font-weight: 500;
+/* bold-heading-testimonial */
+
+
+}
+.section-testimonial{
+    background-color: #fff3b9;
+}
+.testimonial-img{
+    border-radius: 100%;
+    width: 8rem;
+    height: auto;
+}
+.section-testimonial{
+    padding: 4rem 13rem;
+    align-items: center;
+    
+  
+}
+.section-testimonial .grid{
+    gap: 10rem;
+    justify-items: center;
+    
+   
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    
+}
+.testimonial{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.testimonial-name{
+    margin-top: auto;
+    font-weight: 600;
+}
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    text-align: justify;
+}
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows:repeat(4,15rem);
+    gap: 0.8rem;
+}
+.gallery-item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+}
+.gallery-item img:hover{
+    transform: scale(1.1);
+    box-shadow: 2rem 3.2rem 6.4rem rgba(67, 67, 67, 0.3);
+}
+.main-heading-testimonial{
+    font-size: 5rem;
+    margin-bottom: 5rem;
 }

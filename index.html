@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
         <title>Rolling Delights</title>
 </head>
@@ -12,11 +14,11 @@
         <img class="logo" src="img/logo2.png" alt="Rolling Delights Logo">
         <nav class="main-nav">
             <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#">Home</a></li>
+                <li><a class="main-nav-link" href="#">Menu</a></li>
                 <li><a class="main-nav-link" href="#">About</a></li>
-                <li><a class="main-nav-link" href="#">Contact</a></li>
-                <li><a class="main-nav-link" href="#">Services</a></li>
-                <li><a class="main-nav-link" href="#">Login</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Last</a></li>
+                <li><a class="main-nav-link" href="#">Locations</a></li>
+                <li><a class="main-nav-link nav-cta" href="#">Register</a></li>
             </ul>
         </nav>
     </header>
@@ -142,86 +144,235 @@
 <!-- ----------------------SECTION MEALS---------------------- -->
 
 <section class="section-meals">
-    <div class="section-how-div">
+    <div class="section-how-div center-text">
+        <p class="short-heading">MEALS</p>
         <h2 class="secondary-heading">Explore Our Delicious Menu: Tasty Meals for Every Craving</h2>
-        <p class="section-how-description">Discover a range of mouthwatering dishes crafted to satisfy every craving. From savory snacks to hearty meals, our menu has something for everyone to enjoy.</p>
     </div>
 
     <div class="container grid grid--3--cols">
+<!-- MEAL--1 -->
         <div class="meal">
             <img
             src="img\menu\1-Spicy Veggie Wrap.png" 
             alt="Spicy Veggie Wrap"
             class="meal-img"/>
-            <span class="tag">Vegetarian</span>
+            <div class="meal-content">
+            <div class="meal-tags">
+                <span class="tag">Vegetarian</span>
+                <span class="tag tag-Wraps-Rolls">Wraps & Rolls</span>
+            </div>
             <h2 class="meal-title">Spicy Veggie Wrap</h2>
-            <p>
-                <ul>
-                    <li class="meal-attribute">Score: 8.5/10</li>
-                    <li class="meal-attribute">Ratings: 4.2/5</li>
-                    <li class="meal-attribute">Price: ₹120</li>
+                <ul class="meal-attributes">
+                    <li class="meal-attribute">
+                        <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                        <span>Nutriscore:<strong>8.5/10</strong></span></li>
+                    <li class="meal-attribute">
+                        <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                        <span>Calories: 
+                            <strong>400 kcal</strong></span></li>
+                    <li class="meal-attribute">
+                        <ion-icon class="meal-icon" name="star-half-outline"></ion-icon>
+                        <span>Ratings: <strong>4.2/5 (547)</strong></span></li>
+                    <li class="meal-attribute">
+                        <ion-icon class="meal-icon" name="pricetags-outline"></ion-icon>
+                        <span>Price: <strong>₹120</strong></span></li>
                 </ul>
+            </div>
         </div>
         <div class="meal">
             <img
-            src="img\menu\1-Spicy Veggie Wrap.png" 
-            alt="Spicy Veggie Wrap"
+            src="img\menu\2-Cheesy Veggie Pizza.png" 
+            alt="Cheesy Veggie Pizza"
             class="meal-img"/>
-            <span class="tag">Vegetarian</span>
-            <h2 class="meal-title">Spicy Veggie Wrap</h2>
-            <p>
-                <ul>
-                    <li class="meal-attribute">Score: 8.5/10</li>
-                    <li class="meal-attribute">Ratings: 4.2/5</li>
-                    <li class="meal-attribute">Price: ₹120</li>
+            <div class="meal-content">
+            <div class="meal-tags">
+                <span class="tag">Vegetarian</span>
+                <span class="tag tag-Grilled">Grilled </span>
+            </div>
+            <h2 class="meal-title">Cheesy Veggie Pizza</h2>
+                <ul class="meal-attributes">
+                    <li class="meal-attribute">
+                        <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                        <span>Nutriscore:<strong> 9/10</strong></span></li>
+                    <li class="meal-attribute">
+                        <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                        <span>Calories: 
+                            <strong>650 kcal</strong></span></li>
+                    <li class="meal-attribute">
+                        <ion-icon class="meal-icon" name="star-half-outline"></ion-icon>
+                        <span>Ratings: <strong>4.5/5 (635)</strong></span></li>
+                    <li class="meal-attribute">
+                        <ion-icon class="meal-icon" name="pricetags-outline"></ion-icon>
+                        <span>Price: <strong>₹180</strong></span></li>
                 </ul>
+            </div>
         </div>
-        <div class="meal">
-            <img
-            src="img\menu\1-Spicy Veggie Wrap.png" 
-            alt="Spicy Veggie Wrap"
-            class="meal-img"/>
-            <span class="tag">Vegetarian</span>
-            <h2 class="meal-title">Spicy Veggie Wrap</h2>
-            <p>
-                <ul>
-                    <li class="meal-attribute">Score: 8.5/10</li>
-                    <li class="meal-attribute">Ratings: 4.2/5</li>
-                    <li class="meal-attribute">Price: ₹120</li>
-                </ul>
+        <div class="diets">
+            <div class="secondary-heading-meal-diet">
+                <h3 class="heading-meal-diet">Works with any diet</h3>
+            </div>
+            <ul class="list">
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Vegetarian</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Vegan</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Gluten-Free</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Dairy-Free</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Keto</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Low-Carb</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>High-Protein</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Paleo</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Nut-Free</span>
+                </li>
+                <li class="list-items">
+                    <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                    <span>Low-Sugar</span>
+                </li>
+            </ul>
         </div>
     </div>
+    <div class="container all-recipes">
+        <a href="#" class="link">See all recipes &rarr;</a>
+    </div>
+</section>
+<!-- --------------------------------------------- -->
+ <!-- TESTIMONIALS SECTION -->
+  <section class="section-testimonial">
+  <div class="title-testimonial">
+    <h3 class="short-heading-testimonial">TESTIMONIAL</h3>
+</div>
+
+<div class="test-gal-grid grid grid--2--cols">
+    <h2 class="main-heading-testimonial">Savor the Journey: Delightful Dishes from Our Food Truck to Your Taste Buds!</h2>
+    <div class="testimonial-grid">
+    <!-- 1RST DIV -->
+    <div class="testimonials">
+        <figure class="testimonial">
+            <img class="testimonial-img" src="img/customers/cust1.jpg" alt="Photo of customer Vikram R">
+            <blockquote>I’ve been following Rolling Delights wherever they go, and their food never disappoints. The Beef Burger Deluxe was juicy and satisfying. Their variety and quality make them a standout food truck!</blockquote>
+            <p class="testimonial-name">&mdash; Vikram R</p>
+        </figure>
+    </div>
+    <!-- 2ND DIV -->
+    <div class="testimonials">
+        <figure class="testimonial">
+            <img class="testimonial-img" src="img/customers/cust2.jpg" alt="Photo of customer Catherine">
+            <blockquote>Rolling Delights makes every meal an experience. The Chole Bhature was delicious, and the Fresh Fruit Smoothie was a perfect complement. Great food and friendly staff!</blockquote>
+            <div class="testimonial-name">
+            <p>&mdash; Catherine</p>
+        </div>
+        </figure>
+    </div>
+    <!-- 3RD DIV -->
+    <div class="testimonials">
+        <figure class="testimonial">
+            <img class="testimonial-img" src="img/customers/cust3.jpg" alt="Photo of customer Ancina">
+            <blockquote>The Classic Chicken Tikka from Rolling Delights is hands down the best I've ever had. It's always fresh, flavorful, and cooked to perfection. Highly recommend!</blockquote>
+            <p class="testimonial-name">&mdash; Ancina</p>
+        </figure>
+    </div>
+    <!-- 4TH DIV -->
+    <div class="testimonials">
+        <figure class="testimonial">
+            <img class="testimonial-img" src="img/customers/cust4.jpg" alt="Photo of customer Shilpa">
+            <blockquote>Rolling Delights truly lives up to its name! The Spicy Veggie Wrap was packed with flavor and the service was exceptional. I can't wait to try more from their menu!</blockquote>
+            <p class="testimonial-name">&mdash; Shilpa</p>
+        </figure>
+    </div>
+</div>
+<div class="gallery-grid">
+    <figure class="gallery-item">
+        <img src="img\menu\1-Spicy Veggie Wrap.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="img\menu\2-Cheesy Veggie Pizza.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="img\menu\3-meal-1.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="img\menu\4-meal-2.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="./img/chef cooking/chef2.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="img\menu\5-meal-3.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="img\menu\6-meal-4.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="img\menu\7-meal-5.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="./img/chef cooking/chef1.png" class="gallery-img" alt="">
+
+    </figure>
+
+    
+    <figure class="gallery-item">
+        <img src="img\menu\8-meal-6.png" class="gallery-img" alt="">
+
+    </figure>    
+
+    <figure class="gallery-item">
+        <img src="./img/chef cooking/chef3.png" class="gallery-img" alt="">
+
+    </figure>
+
+    <figure class="gallery-item">
+        <img src="img\menu\12-meal-10.png" class="gallery-img" alt="">
+
+    </figure>
+</div>
+<h2 class="main-heading-testimonial">Once you try it, you can't go back!</h2>
+
+</div>
 </section>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 </main>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
