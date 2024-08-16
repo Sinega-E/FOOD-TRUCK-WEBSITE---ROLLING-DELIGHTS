@@ -790,16 +790,16 @@ strong{
     cursor: pointer;
 }
 .plan{
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
-    color: #4c3b17;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 450;
+    color: #b96f00;
 }
 .price{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
-    font-weight: 500;
-    color: #715d2a;
+    font-weight: bolder;
+    color: #544215;
 }
 /* -------------------------- */
 .price-half-color{
@@ -808,21 +808,93 @@ strong{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
 }
+
 
 
 .price-half-color1{
+    position: relative;
+    perspective: 1000px;
     background-color: #fff4bc;
 }
 .price-half-color2{
+    position: relative;
+    perspective: 1000px;
     background-color: #ffed91;
 }
 .price-half-color3{
+    position: relative;
+    perspective: 1000px;
     background-color: #ffe771;
 }
 .price-half-color4{
+    position: relative;
+    perspective: 1000px;
     background-color: #ffdf41;
+}
+.price-half-color1::after{
+    display: block;
+    content: "MOST AFFORDABLE";
+    position: absolute;
+    top: 3.5rem;
+    right:-11rem;
+    transform: rotate(45deg);
+    background-color: #3cc800;
+    color: rgb(255, 255, 255);
+    width: 30rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.price-half-color2::after{
+    display: block;
+    content: "BEST VALUE";
+    position: absolute;
+    top: 2.8rem;
+    right:-12rem;
+    transform: rotate(45deg);
+    background-color: #34ae00;
+    color: rgb(255, 255, 255);
+    width: 30rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.price-half-color3::after{
+    display: block;
+    content: "RECOMMENDED";
+    position: absolute;
+    top: 3.5rem;
+    right:-11rem;
+    transform: rotate(45deg);
+    background-color: #2e9800;
+    color: rgb(255, 255, 255);
+    width: 30rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.6rem;
+}
+.price-half-color4::after{
+    display: block;
+    content: "BEST PLAN";
+    position: absolute;
+    top: 2.5rem;
+    right:-11.8rem;
+    transform: rotate(45deg);
+    background-color:#216d00;
+    color: rgb(255, 255, 255);
+    width: 30rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.6rem;
 }
 /* -------------------------- */
 .price-benefits-list{
@@ -859,6 +931,11 @@ strong{
 }
 .pricing-icon-heading{
     color: #6d5a28;
+}
+.pricing-icon-heading:hover{
+    text-decoration: underline #322914;
+   
+    
 }
 .pricing-icon-content{
     display: flex;
@@ -918,7 +995,7 @@ strong{
 }
 .why-us{
     padding: 0rem 13rem;
-    background-color: #c9ac62;
+    background-color: #e5c679;
 }
 
 
@@ -927,6 +1004,4 @@ strong{
 .section-how-img-right5:hover, .section-how-img-right6:hover{
     transform: scale(1.1);
     cursor: pointer;
-    transition: all 0.4s;
-    
 }
