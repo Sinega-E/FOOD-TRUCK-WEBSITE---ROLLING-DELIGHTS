@@ -289,10 +289,10 @@ body{
 
 .section-how-img{
     justify-self: center;
-    overflow: hidden;
 }
 
 .section-how-img-right1{
+    transition: all 0.3s;
     max-width:25rem;
     height: 100%;
 }
@@ -300,21 +300,26 @@ body{
 .section-how-img-right2{
     width:45rem;
     height: 100%;
+    transition: all 0.3s;
 }
 .section-how-img-right3{
     width:40rem;
     height: 100%;
+    transition: all 0.3s;
 }
 .section-how-img-right4{
+    transition: all 0.3s;
     width:42rem;
     height: 100%;
 }
 .section-how-img-right5{
+    transition: all 0.3s;
     width:30rem;
     height: 100%;
     margin-bottom: 8rem;
 }
 .section-how-img-right6{
+    transition: all 0.3s;
     width:67rem;
     height: 100%;
 }
@@ -738,6 +743,7 @@ strong{
 
 .section-pricing{
     padding: 4rem 13rem;
+    background-color: #ffffec;;
 
 }
 
@@ -766,12 +772,13 @@ strong{
   
 }
 .price-main{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-    width: 25rem;
-    padding: 3rem 2rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30rem;
+    padding-bottom: 3rem;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
@@ -794,7 +801,30 @@ strong{
     font-weight: 500;
     color: #715d2a;
 }
+/* -------------------------- */
+.price-half-color{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 2rem;
+}
 
+
+.price-half-color1{
+    background-color: #fff4bc;
+}
+.price-half-color2{
+    background-color: #ffed91;
+}
+.price-half-color3{
+    background-color: #ffe771;
+}
+.price-half-color4{
+    background-color: #ffdf41;
+}
+/* -------------------------- */
 .price-benefits-list{
     list-style: none;
     display: flex;
@@ -802,18 +832,101 @@ strong{
     padding: 3rem 2rem;
     line-height: 1.5;
     gap: 2rem;
-    font-size: 1.5rem;
-}
-.price-benefit-item{
-    display: flex;
-    gap: 1rem;
-  
+    font-size: 1.6rem;
+
 }
 
+.price-benefit-item{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 0.1fr 1fr;
+}
 
 .pricing-button{
     margin-top: auto;
     border: none;    
 }
 
+.price-icon-flex{
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    gap: 3rem;
+    padding: 6rem 2rem;
+    justify-items: center;
+    line-height: 3rem;
+    text-align: center;
+}
+.pricing-icon-heading{
+    color: #6d5a28;
+}
+.pricing-icon-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30rem;
+    gap: 2.5rem;
+    background-color: #ffffda;
+    padding:1.5rem 2rem;
+    border-radius: 2rem;
+    justify-items: center;
+    box-shadow: 0 0.5rem 1rem rgba(255, 254, 210, 0.3);
+    transition: all 0.3s;
+}
+.pricing-icon-content:hover{
+    transform: translateY(-1.2rem);
+    box-shadow: 0rem 2rem 6rem rgba(255, 254, 210, 0.3);
+    
+}
 
+.price-list-icon{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.pricing-icon{
+    background-color: #f5c861;
+    height:4.8rem;
+    width: 4.8rem;
+    font-size: 2.8rem;
+    color: #4c3b17;
+    border-radius: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.pricing-icon-paragh{
+    color: #4f3d0e;
+}
+.main-heading-reasoning{
+    color: #4f3d0e;
+    font-size: 4.5rem;
+    padding-bottom: 0;
+    padding-left: 2rem;
+}
+.short-heading-reasoning{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #4f3d0e;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+.short-reasoning{
+    padding-top: 7rem;
+}
+.why-us{
+    padding: 0rem 13rem;
+    background-color: #c9ac62;
+}
+
+
+.section-how-img-right1:hover, .section-how-img-right2:hover,
+.section-how-img-right3:hover, .section-how-img-right4:hover,
+.section-how-img-right5:hover, .section-how-img-right6:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.4s;
+    
+}
