@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./queries.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
@@ -179,6 +180,7 @@
                 </ul>
             </div>
         </div>
+        <!-- MEAL--2 -->
         <div class="meal">
             <img
             src="img\menu\2-Cheesy Veggie Pizza.png" 
@@ -478,25 +480,28 @@
 </section>
 <!-- section call to action -->
  <section class="section-cta">
-    
+    <!-- di-1-start  -->
     <div class="cta-container">
+        <!-- di-1.1-start  -->
         <div class="cta-text-box">
+
             <h2 class="third-heading">Get your first meal for free!</h2>
             <p class="cta-text">Discover the flavors that make our food truck unique! We bring you freshly prepared, mouthwatering dishes that blend bold spices and local ingredients, serving up gourmet street food with a twist.</p>
+            
             <form class="cta-form" action="#">
-            <div>
-                <label for="full-name">Full Name</label>
-                <input required id="full-name" type="text" placeholder="Karthik R">
+            <div class="main-name-input-div">
+                <label class="label-cta" for="full-name">Full Name</label>
+                <input class="input-cta" required id="full-name" type="text" placeholder="Karthik R">
             </div>
 
-            <div>
-                <label for="email">Email Address</label>
-                <input required id="email" type="email" placeholder="me@gmail.com">
+            <div class="email">
+                <label class="label-cta" for="email">Email Address</label>
+                <input class="input-cta" required id="email" type="email" placeholder="me@gmail.com">
             </div>
 
-            <div>
-                <label id="select-where">Where did you hear about us?</label>
-                <select id="select-where" required>
+            <div class="select">
+                <label class="label-cta" id="select-where">Where did you hear about us?</label>
+                <select class="input-cta-select" id="select-where" required>
                     <option value="">Please choose one from below</option>
                     <option value="friends-and-family">Friends And Family</option>
                     <option value="youtube">Youtube</option>
@@ -505,19 +510,110 @@
                     <option value="podcast">Podcast</option>
                     <option value="others">Others</option>
                 </select>
-            </div>
-                <button class="btn">Sign up now</button>
+                </div>
+                <button class="btn btn-cta">Sign up now</button>
+                
             </form>
-        </div>
+        </div><!-- di-1.1-end  -->
 
        
 
 
         <div class="cta-img-box" 
         role="img" 
-        aria-label="Woman enjoying food"></div>
+        aria-label="Woman enjoying food">
     </div>
+    </div> <!-- di-1-end  -->
+   
  </section>
+
+
+ <!-- footer section -->
+  <section class="section-footer">
+    <!-- first div -->
+     <div class="footer-container">
+        <div class="footer-div-1 footer-inside-div footer-1-flex">
+            <div class="footer-logo">
+                <img class="footer-logo-img" src="img\logo1.png" alt="">
+                <ul class="footer-list">
+                    <li class="footer-paragh social-media-icon-main-list">
+                        <p class="footer-paragh social-media-icon-list">
+                            <a href="#" class="footer-link"><ion-icon class="footer-follow-logo" name="logo-instagram"></ion-icon></a>
+                            <a href="#" class="footer-link"><ion-icon class="footer-follow-logo" name="logo-facebook"></ion-icon></a>
+                            <a href="#" class="footer-link"><ion-icon class="footer-follow-logo" name="logo-whatsapp"></ion-icon></a>
+                            <a href="#" class="footer-link"><ion-icon class="footer-follow-logo" name="map-outline"></ion-icon></a>
+                        </p>
+                    </li>
+                 </ul>
+                 <p class="footer-paragh-left"> Copyright &copy; 2023 by RollingDelights, Inc.</p>
+                 <p class="footer-paragh-left"> All rights reserved</p>
+                 
+            </div>
+            
+        </div>
+        <div class="footer-about-us footer-inside-div">
+            <h3 class="footer-heading">ABOUT US</h3>
+            <ul class="footer-list">
+            
+            <li class="footer-paragh"><a class="footer-link" href="#">Read Our Story</a></li>
+            <li class="footer-paragh"><a class="footer-link" href="#">Track Us Now</a></li>
+            <li class="footer-paragh"><a class="footer-link" href="#">Key Achievements</a></li>
+            <li class="footer-paragh"><a class="footer-link" href="#">Careers</a></li>
+        </ul>
+        </div>
+
+
+        <div class="footer-div-2 footer-inside-div">
+            <h3 class="footer-heading">SERVICES</h3>
+            <ul class="footer-list">
+                <li class="footer-paragh"><a class="footer-link" href="#">View Menu</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Catering Services</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Purchase Gift Cards</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Join Loyalty Program</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Food Truck Booking</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Seasonal Specials</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Shop Merchandise</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Franchise Opportunities</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-div-3 footer-inside-div">
+            <h3 class="footer-heading">ACCOUNT</h3>
+            <ul class="footer-list">
+                <li class="footer-paragh"><a class="footer-link" href="#">Sign Up</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Log In</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">My Orders</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Track Order Now</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Manage Saved Addresses</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Payment Methods</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Rewards Balance</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Newsletter Preferences</a></li>
+                
+            </ul>
+        </div>
+        <div class="footer-div-4 footer-inside-div">
+            <h3 class="footer-heading">LEGAL</h3>
+            <ul class="footer-list">
+                <li class="footer-paragh"><a class="footer-link" href="#">Privacy Policy</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Terms & Conditions</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Refund Policy</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Cookie Policy</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Shipping Policy</a></li>
+                
+            </ul>
+        </div>
+        <div class="footer-div-5 footer-inside-div">
+            <h3 class="footer-heading">CONTACT US</h3>
+            <ul class="footer-list footer-list-text-align-left">
+                <li class="footer-paragh"><a class="footer-link" href="#">Contact Support</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="#">Leave a Review</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="tel:+919876543219">Make a call now</a></li>
+                <li class="footer-paragh"><a class="footer-link" href="mailto:support@rollingdelights.com">Email Us</a></li>
+                
+            </ul>
+            
+    </div>
+  </section>
 </main>
 </body>
 </html>
