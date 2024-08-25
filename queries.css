@@ -101,4 +101,7 @@
         font-size: 1.6rem;
         padding: 0.6rem 1.2rem;
     }
+    .hero-img {
+        display: none;
+    }
 }
