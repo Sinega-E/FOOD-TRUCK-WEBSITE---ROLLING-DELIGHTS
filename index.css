@@ -207,7 +207,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     margin-top: 2rem;
 }
 .heading-featured-in{
@@ -225,7 +225,7 @@ body{
 }
 .featured-in-logos .logo-size{
     height: 6rem;
-    width: 100%;
+    max-width: 100%;
 
 }
 .featured-in-logos .logo-size-1{
