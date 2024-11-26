@@ -30,6 +30,26 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
+    .header {
+        grid-template-columns: 1fr 1fr; /* Maintain two columns */
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .logo {
+        justify-self: left;
+        height: 9rem; /* Slightly smaller logo size */
+        padding-left: 2rem;
+    }
+
+    .main-nav-list {
+        justify-content: flex-end; /* Align navigation to the right */
+        gap: 2.5rem; /* Adjust gap between items */
+    }
+
+    .main-nav-link {
+        font-size: 1.7rem; /* Slightly reduce font size */
+    }
     .hero {
         grid-template-columns: 1fr 1fr; /* Maintain two columns */
         margin-left: 2rem; /* Adjust left margin */
@@ -49,6 +69,29 @@
 }
 /* Small Screens (Mobile) */
 @media screen and (max-width: 768px) {
+    .header {
+        grid-template-columns: 1fr; /* Stack logo and nav vertically */
+        padding-right: 1rem;
+        padding-left: 1rem;
+        justify-content: center;
+    }
+
+    .logo {
+        justify-self: center; /* Center the logo */
+        height: 8rem; /* Adjust the logo size */
+        padding-top: 1rem;
+    }
+
+    .main-nav-list {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center; /* Center-align navigation items */
+        gap: 2rem; /* Reduce gap between items */
+        padding: 1rem 0; /* Add some padding */
+    }
+
+    .main-nav-link {
+        font-size: 1.6rem; /* Adjust font size for smaller screens */
+    }
     .hero {
         margin-left: 2rem;
         padding: 0;
