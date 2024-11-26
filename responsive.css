@@ -111,7 +111,7 @@
     }
 
     .hero-img {
-        max-width: 30rem;
+        display: none;
     }
 
     .delivered-meals {
@@ -151,7 +151,7 @@
     }
 
     .hero-img {
-        max-width: 25rem;
+        display: none;
     }
 
     .delivered-meals {
