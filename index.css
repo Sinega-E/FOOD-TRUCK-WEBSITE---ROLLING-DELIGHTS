@@ -37,7 +37,6 @@ body{
 .logo{
     padding-top: 1rem;
     padding-left: 3rem;
-    max-width: 100%;
     height: 10rem;
     border: none;
     justify-self: left;
@@ -47,7 +46,6 @@ body{
 .main-nav-list {
     list-style: none;
     display: flex;
-    max-width: 100%; 
     background-color: #ffffd4;
     gap: 3.2rem;
     align-items: center;
@@ -97,7 +95,7 @@ body{
     margin-top: 8rem;
     margin-left: 15rem;
     display: grid;
-    max-width: 118rem;
+    max-width: 120rem;
     padding: 0 1rem;
     grid-template-columns: 1.5fr 0.8fr;
     align-items:flex-start;
@@ -124,7 +122,7 @@ body{
 /* ****************** HERO IMAGE ********************** */
 
 .hero-img{
-    max-width: 45rem;
+    width: 100%;
     height: auto;
 }
 
@@ -207,7 +205,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
     margin-top: 2rem;
 }
 .heading-featured-in{
@@ -254,7 +251,6 @@ body{
 }
 .container, .section-how-div{
 
-    max-width: 100%;
     padding: 4rem 6rem;
     font-size: 2.5rem;
 
@@ -308,7 +304,7 @@ body{
 
 .section-how-img-right1{
     transition: all 0.3s;
-    max-width:25rem;
+    width:25rem;
     height: 100%;
 }
 
@@ -540,7 +536,6 @@ color: #ffffc9;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
 }
 
 .grid--3--cols {
@@ -550,13 +545,12 @@ color: #ffffc9;
     justify-items: center; 
     align-items: center;  
     padding: 0; 
-    max-width: 120rem;  
-    width: 100%;
+    width: 120rem;  
     box-sizing: border-box; 
 }
 
 .meal {
-    max-width: 35rem;
+    width: 35rem;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
@@ -782,7 +776,6 @@ strong{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     align-content:space-evenly ;
-    max-width: 120rem;
     height: auto;
     gap: 3rem;
  
@@ -794,7 +787,6 @@ strong{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    max-width: 30rem;
     padding-bottom: 3rem;
     overflow: hidden;
     border-radius: 12px;
@@ -937,7 +929,6 @@ strong{
 }
 
 .price-icon-flex{
-    max-width: 120rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     font-size: 2rem;
@@ -1128,7 +1119,6 @@ input::placeholder{
 }
 /* FOOTER */
 .footer-container {
-    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 2rem;
@@ -1137,9 +1127,9 @@ input::placeholder{
     padding: 9rem 16.2rem;     
     border-top: #3229142a 1px solid;
 }
-.footer-inside-div{
+/* .footer-inside-div{
     max-width: 120rem;
-}
+} */
 .footer-heading {
     padding: 1rem 0; 
     font-size: 1.8rem;
